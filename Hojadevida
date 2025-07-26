@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Hoja de vida</title>
+  </head>
+  <body>
+      <h1>Wilder Agudelo Parra</h1>
+      <p><strong>Teléfono:</strong>+57 315-445-2911</p>
+      <h2>Acerca de mi</h2>
+      <p style="text-align: justify;">Magister en Administración de la Universidad Nacional de Colombia; Profesional en Ciencia de la Información de la Universidad del Quindío y Técnico en Ensamble Redes y Programación. Me caracterizo por ser un profesional dinámico y enfocado en el mejoramiento de los servicios y procesos, me proyecto como un gerente de información con capacidades de gestión, construcción colectiva y comunicación efectiva; capaz de involucrar las nuevas tecnologías y estrategias de mercado en el desarrollo de mis funciones, apoyando toda iniciativa que genere valor a los usuarios y posicionamiento institucional.</p style="text-align: justify;">
+      
+      <p style="text-align: justify;">Mis hobbies son la lectura, los vídeojuegos y los documentales</p style="text-align: justify;">
+      
+      <h2>Experiencia laboral</h2>
+      
+      <h2>Estudios</h2>
+      
+      <h2>Referencias personales</h2>
+      
+    </body>
+</html>

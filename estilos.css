@@ -1,0 +1,124 @@
+#top {
+    text-align: center; /* Centra el texto y los elementos inline como imágenes */
+    padding: 20px;       /* Espaciado interno opcional para que no quede tan pegado */
+    line-height: 1.2; /*Control para estacio entre líneas */
+}
+
+
+/* === Estilo base === */
+body {
+    background-color: #f7f7f7;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.2; /* espacio sencillo */
+    margin-bottom: 15px;   
+}
+
+/* === Foto perfil === */
+.foto-perfil {
+    width: 150px; /* ancho */
+    height: 150px; /* alto */
+    border-radius: 50px; /* borde circular */
+    border: 4px solid #754d3a; /* borde con color principal */
+    object-fit: cover; /* evita distorsión */
+    display: inline-block;
+    margin: 0;
+}
+
+/* === Encabezados === */
+h1, h2, h3 {
+    color: #754d3a;
+}
+
+/* === Tabla de referencias === */
+.tabla-referencias {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.tabla-referencias th,
+.tabla-referencias td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+.tabla-referencias th {
+    background-color: #f0e0d6; /* un tono suave para el encabezado */
+    color: #754d3a;
+    font-weight: bold;
+}
+
+/* === Footer === */
+footer {
+    background-color: bisque;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* === Menú de navegación === */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #754d3a; /* mismo tono del título */
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    background-color: #754d3a;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #d6b8aa; /* color claro al pasar el mouse */
+    color: black;
+}
+
+/* === Formulario === */
+form {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    color: #754d3a;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #754d3a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a17561;
+}
+hr {
+    color: #754d3a;
+    font-weight: bold;
+}
