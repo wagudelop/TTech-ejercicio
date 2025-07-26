@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-     <div id="container"></div>
 
     <header id="top">
         <!-- En esta zona va lo que se vera en la zona superior. Encabezado -->
@@ -18,11 +19,11 @@
         <p>correo electrónico: wagudelo@unal.edu.co</p>
         <p>Móvil:+57 315-445-2911</p>
         <a href="https://www.linkedin.com/in/wilder-agudelo-parra-0a71a1aa/" target="_blank">
-        <img src="icons8-linkedin-50.png" alt="linkedin" style="width: 30px; height: 30px;">
+            <img src="icons8-linkedin-50.png" alt="linkedin" style="width: 30px; height: 30px;">
         </a>
     </header>
 
-    <hr>   
+    <hr>
     <nav>
         <h2>Índice</h2>
         <ul>
@@ -34,28 +35,101 @@
 
 
         </ul>
-    </nav>  
-     <section id="contenido">
-        <!-- a partir de esta zona pondre el contenido, el cuerpo -->
+    </nav>
 
-        <hr>
-        <!-- cree una sección para poder vincular con nav (acerca de mi)-->
-        <section id="acercade"></section>
-        <h2>Acerca de mi</h2>
-        <img src="acercademi.png" alt="acerca de mi" style="width: 10%; height: 10%">
-        <p style="text-align: justify;">Profesional en Ciencia de la información y la Documentación, Bibliotecología y
-            Archivística de la Universidad del Quindío. Magíster en Administración de la Universidad Nacional de
-            Colombia. Ponente en temas de integridad académica, manual de publicaciones con énfasis en los estilos APA y
-            Chicago y análisis bibliométrico.
-            Cuenta con más de 20 años de experiencia profesional en el ámbito de la bibliotecología.
-            Trabaja como consultor independiente para una plataforma de libros electrónicos y como asesor en trabajos
-            académicos para diferentes universidades de Colombia.
-        </p>
+    <hr>
+    <!-- cree una sección para poder vincular con nav (acerca de mi)-->
+    <main>
+        <section id="acercade">
+            <h2>Acerca de mi</h2>
+            <img src="acercademi.png" alt="acerca de mi" style="width: 10%; height: 10%">
+            <p style="text-align: justify;">Profesional en Ciencia de la información y la Documentación, Bibliotecología
+                y
+                Archivística de la Universidad del Quindío. Magíster en Administración de la Universidad Nacional de
+                Colombia. Ponente en temas de integridad académica, manual de publicaciones con énfasis en los estilos
+                APA y
+                Chicago y análisis bibliométrico.
+                Cuenta con más de 20 años de experiencia profesional en el ámbito de la bibliotecología.
+                Trabaja como consultor independiente para una plataforma de libros electrónicos y como asesor en
+                trabajos
+                académicos para diferentes universidades de Colombia.
+            </p>
 
-        <p style="text-align: justify;">Mis hobbies son la lectura, los vídeojuegos y los documentales</p>
-        
+            <p style="text-align: justify;">Mis hobbies son la lectura, los vídeojuegos y los documentales</p>
+        </section>
         <hr>
         <!-- cree una sección para poder vincular con nav (experiencia)-->
-          
+
+        <section id="referencias">
+            <h2>Referencias personales</h2>
+            <img src="referenciaspersonales.png" alt="acerca de mi" style="width: 5%; height: 5%">
+
+
+            <!--Aquí va la tabla. ajuste la instrucción usando css para probar-->
+            <table class="tabla-referencias">
+                <tr>
+                    <th>Cargo</th>
+                    <th>Nombre</th>
+                    <th>Teléfono</th>
+                    <th>Correo</th>
+                </tr>
+                <tr>
+                    <td>Coordinador de sistemas</td>
+                    <td>Carlos Saa</td>
+                    <td>+57 (2) 4450000</td>
+                    <td>c.saa@cgiar.org</td>
+                </tr>
+                <tr>
+                    <td>Directora de biblioteca</td>
+                    <td>Ruby Chaux Rúgeles</td>
+                    <td>+57 (2) 231-2246</td>
+                    <td>biblioteca@usbcali.edu.co</td>
+                </tr>
+                <tr>
+                    <td>Directora de biblioteca</td>
+                    <td>Dora Isabel Muñoz Tamayo</td>
+                    <td>+57 (2) 286-8888</td>
+                    <td>biblioteca@usbcali.edu.co</td>
+                </tr>
+                <tr>
+                    <td>Asesora Revista Acta Agronómica</td>
+                    <td>Julia Emma Zuñiga Rivera</td>
+                    <td>+57 (2) 271-8753</td>
+                    <td>jezunigar@actaagronomica.com</td>
+                </tr>
+            </table>
+
+            <br>
+            <hr>
+        </section>
+
+        <!--Aquí vamos a ingresar un formulario, por el momento esta vacio-->
+        <section id="formulario">
+            <h2>Formulario para contacto</h2>
+            <form>
+                <label>Nombre:</label>
+                <input type="text" name="nombre" placeholder="Nombre y apellido" required="">
+                <small>Ingrese su nombre completo</small>
+                <br>
+                <br>
+                <label>Correo electrónico</label>
+                <input type="email" name="email" placeholder="ejemplo@correo.com" required="">
+                <small>Usa un email corporativo</small>
+                <br>
+                <br>
+                <label>Teléfono</label>
+                <input type="number" name="telefono" placeholder="+57 --- --- ----" required="">
+                <small>Se te contactará a este número</small>
+                <br>
+                <br>
+                <label>Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                <br>
+                <br>
+                <button>Enviar</button>
+            </form>
+        </section>
+    </main>
 </body>
+
 </html>
